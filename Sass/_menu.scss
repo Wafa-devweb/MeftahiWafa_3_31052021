@@ -1,4 +1,3 @@
-  @import"_mixins";  
 
 .full_menu {
     @include desktop {
@@ -6,24 +5,24 @@
       justify-content: space-around;
     }
   }
-
-.restaurants, .location, .explore-restaurants, .operation {
-  animation: fadein 3s ease-in-out;
+  
+.restaurants {
+  animation: fadein 2s ease-in-out;
   }
   .starter {
-    animation: fadein 3s ease-in-out;
+    animation: fadein 2s ease-in-out;
     @include desktop {
       width: 400px;
     }
   }
   .dish {
-    animation: fadein 6s ease-in-out;
+    animation: fadein 3s ease-in-out;
     @include desktop {
       width: 400px;
     }
   }
   .dessert {
-    animation: fadein 9s ease-in-out;
+    animation: fadein 4s ease-in-out;
     @include desktop {
       width: 400px;
     }

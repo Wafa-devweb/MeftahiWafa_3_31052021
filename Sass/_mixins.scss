@@ -15,7 +15,7 @@
     padding-right: 88px;
     .cross {
       opacity: 1;
-      transform: translate(-50px);
+      transform: translate(-45px);
     }
     .fa-check-circle {
       transition: all 0.75s ease-in-out;
@@ -42,6 +42,7 @@
   .fa-check-circle {
     color: #fff;
     transition: transform 500ms ease-in-out;
+    margin-left: 6px;
   }
 }
 
